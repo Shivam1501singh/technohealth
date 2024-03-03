@@ -1,0 +1,22 @@
+def calculate_grades(scores, passing_threshold):
+    # Step 1: Calculate the average score
+    total_score = sum(scores)
+    average_score = total_score / len(scores)
+    
+    # Step 2: Determine pass/fail status for each student
+    pass_fail_status = []
+    for score in scores:
+        if score >= passing_threshold:
+            pass_fail_status.append("Pass")
+        else:
+            pass_fail_status.append("Fail")
+    
+    # Step 3: Return average score and pass/fail status
+    return average_score, pass_fail_status
+
+# Example usage:
+student_scores = [85, 90, 75, 60, 70]
+passing_threshold = 70
+average_score, pass_fail_status = calculate_grades(student_scores, passing_threshold)
+print("Average score:", average_score)
+print("Pass/Fail status:", pass_fail_status)

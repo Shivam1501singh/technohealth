@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg-container {
+    background-image: url('background-image.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust transparency */
+    margin-bottom: 40px; /* Increase space between sections */
+    border-radius: 10px; /* Add rounded corners to sections */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Animations */
+.animated {
+    animation-fill-mode: both;
+}
+
+.fadeInDown {
+    animation-duration: 1s;
+}
+
+.fadeInUp {
+    animation-duration: 1s;
+}
+/* Additional Styles for Images */
+.feature-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Adjustments for Section Styles */
+/* Background images for sections */
+.ai-bg {
+    background-image: url('ai-detection-image.jpg');
+}
+
+.store-bg {
+    background-image: url('store-bg.jpeg');
+}
+
+.period-bg {
+    background-image: url('period-bg.jpg');
+}
+
+/* Ensure content is visible */
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust transparency */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.section h2,
+.section p {
+    color: #333; /* Adjust text color */
+}
+
+
